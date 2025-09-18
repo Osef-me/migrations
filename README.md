@@ -30,7 +30,7 @@ The migrations are organized chronologically and cover the following main areas:
 
 ## Database Schema Diagram
 
-[img]https://cdn.discordapp.com/attachments/923352143539347476/1418311994737561620/fLPHZzis37xFhz0yOEi13TfYs50KmQ7hqBvi3qFROIy135fcBbfaoPFat0NhZnyfMtPiNHeScfUG5FcH_4XRVki3kD0rUlLTZJjbK7p-zTqVxvyPQF1vZLxU2Ad1Uy460LuKR2p4PXEWqdXxEyRz-VkpXnkngMutqchhtdnVlNxzoojIVpZWwNRp8bflnSFcHJK5VOX1AGBYZoB0ENk_T.png?ex=68cda97a&is=68cc57fa&hm=067289d965ec90d05cafe6586365003a5ccafad0fc1eedcae406a26849ea6c7c&[/img]
+![image](https://cdn.discordapp.com/attachments/923352143539347476/1418311994737561620/fLPHZzis37xFhz0yOEi13TfYs50KmQ7hqBvi3qFROIy135fcBbfaoPFat0NhZnyfMtPiNHeScfUG5FcH_4XRVki3kD0rUlLTZJjbK7p-zTqVxvyPQF1vZLxU2Ad1Uy460LuKR2p4PXEWqdXxEyRz-VkpXnkngMutqchhtdnVlNxzoojIVpZWwNRp8bflnSFcHJK5VOX1AGBYZoB0ENk_T.png?ex=68cda97a&is=68cc57fa&hm=067289d965ec90d05cafe6586365003a5ccafad0fc1eedcae406a26849ea6c7c&)
 
 ## Usage
 
