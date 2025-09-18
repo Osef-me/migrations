@@ -1,4 +1,4 @@
-create table replays (
+create table replay (
     id integer generated always as identity primary key,
     replay_hash char(64) not null,
     replay_available boolean not null default false,
@@ -31,7 +31,7 @@ create table if not exists score (
     user_id bigint not null references users(discord_id) on delete cascade,
     rates_id integer not null references rates(id) on delete cascade,
     score_metadata_id integer not null references score_metadata(id) on delete cascade,
-    replay_id integer references replays(id) on delete set null,
+    replay_id integer references replay(id) on delete set null,
     hwid text, -- hardware id of the computer used to play the score (prevent cheating)
     mods bigint not null default 0,
     rank varchar(2) not null check (rank in ('XH','X','SH','SS','S','A','B','C','D','E','F','G')),
