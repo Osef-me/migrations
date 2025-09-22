@@ -6,7 +6,7 @@ create table if not exists beatmap_rating
     rating decimal(6,2) not null,
     rating_type varchar(30) not null,
     created_at timestamp default now(),
-    constraint valid_type check (rating_type in ('osu', 'etterna', 'quaver', 'malody', 'interlude'))
+    constraint valid_type check (rating_type in ('osu', 'etterna', 'quaver', 'malody', 'interlude', 'sunnyxxy'))
 );
 
 create index if not exists idx_rating_rate_id on beatmap_rating(rates_id);
